@@ -14,6 +14,7 @@ int main()
 	clock_t end = clock();
 	double elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
 	std::cout << "This problem is solved in " << elapsed_secs << " seconds.\n";
+	// new commit from ubuntu
     return 0;
 }
 
